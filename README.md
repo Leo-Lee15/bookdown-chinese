@@ -8,4 +8,8 @@
 > 
 >[不可挡的bookdown](http://www.pzhao.org/zh/post/inresistible-bookdown/#fn6)
 
+本模板是修改过的版本！
+
 感谢谢益辉大神开发的`bookdown`包和赵鹏大神的博客！
+
+
