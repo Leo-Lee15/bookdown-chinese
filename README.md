@@ -13,3 +13,25 @@
 感谢谢益辉大神开发的`bookdown`包和赵鹏大神的博客！
 
 
+`yaml`header部分说明：
+--- 
+title: "麻麻说我们可以用 R Markdown 写书了"  # 标题
+author: "张三"                              # 作者
+date: "`r Sys.Date()`"                      #  日期 
+documentclass: ctexbook                     
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+colorlinks: no                             # 原模板这里是“yes”，改为"no"之后才正常运行
+lot: yes                                   # 是否关闭表目录，显示哪张表在哪一页
+lof: yes                                   # 是否关闭图目录，显示哪幅图在哪一页
+geometry: [b5paper, tmargin=2.5cm, bmargin=2.5cm, lmargin=3.5cm, rmargin=2.5cm]
+site: bookdown::bookdown_site
+description: "一个简单的中文书示例。"
+github-repo: yihui/bookdown-chinese
+#cover-image: images/cover.jpg             # 显示封面图片，不知道为什么，我的没有成功
+---
+
+
+
+
