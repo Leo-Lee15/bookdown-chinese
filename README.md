@@ -14,8 +14,9 @@
 
 
 `yaml`header部分说明：
---- 
-title: "麻麻说我们可以用 R Markdown 写书了"  # 标题
+```
+---
+title: "麻麻说我们可以用 R Markdown 写书了"   # 标题
 author: "张三"                              # 作者
 date: "`r Sys.Date()`"                      #  日期 
 documentclass: ctexbook                     
@@ -31,6 +32,7 @@ description: "一个简单的中文书示例。"
 github-repo: yihui/bookdown-chinese
 #cover-image: images/cover.jpg             # 显示封面图片，不知道为什么，我的没有成功
 ---
+```
 
 
 
