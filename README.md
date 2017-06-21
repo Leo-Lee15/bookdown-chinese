@@ -4,6 +4,6 @@
 
 **Note**
 
-按照谢大神的中文示例文档[^[不可挡的bookdown](https://github.com/yihui/bookdown-chinese)]，照猫画虎，却意外出现了编译错误，后来把preamble.tex的15到27行删掉，把index.Rmd里的 colorlinks: yes 改为 no，中文文档就华丽丽地编译出来了[^[不可挡的bookdown](http://www.pzhao.org/zh/post/inresistible-bookdown/#fn6)]。
+按照谢大神的中文示例文档[^bookdown 中文书籍范例]，照猫画虎，却意外出现了编译错误，后来把preamble.tex的15到27行删掉，把index.Rmd里的 colorlinks: yes 改为 no，中文文档就华丽丽地编译出来了[^不可挡的bookdown]。
 
 感谢谢益辉大神开发的`bookdown`包和赵鹏大神的博客！
